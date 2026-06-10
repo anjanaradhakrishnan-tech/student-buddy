@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Buddy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>📚 Student Buddy</h1>
+
+    <section>
+        <h2>My Timetable</h2>
+
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>Subject</th>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td>C Programming</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>Mathematics</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Notes</h2>
+        <textarea placeholder="Write notes here..."></textarea>
+    </section>
+
+    <section>
+        <h2>To-Do List</h2>
+
+        <input type="text" id="taskInput" placeholder="Enter Task">
+        <button onclick="addTask()">Add</button>
+
+        <ul id="taskList"></ul>
+    </section>
+
+    <section>
+        <h2>Study Tips</h2>
+
+        <ul>
+            <li>Practice coding daily.</li>
+            <li>Revise notes regularly.</li>
+            <li>Take short breaks.</li>
+            <li>Focus on one topic at a time.</li>
+        </ul>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
